@@ -171,7 +171,7 @@ Project
   display: block;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
-  height: 20rem;
+  height: 15rem;
   object-fit: cover;
 }
 .project footer {
