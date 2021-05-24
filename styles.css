@@ -314,12 +314,7 @@ Project
   height: 15rem;
   object-fit: cover;
 }
-.project header {
-  border-top-left-radius: var(--borderRadius);
-  border-top-right-radius: var(--borderRadius);
-  height: 15rem;
-  background: var(--grey-200);
-}
+
 .project footer {
   text-align: center;
   padding: 1.5rem 2rem;
