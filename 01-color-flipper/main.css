@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
 html {
   font-size: 100%;
 } /*16px*/
@@ -41,8 +41,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts  */
-  --headingFont: 'Inconsolata', monospace;
-  --bodyFont: 'Montserrat', sans-serif;
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
@@ -256,3 +256,77 @@ ul {
 Nav
 ===============
 */
+nav {
+  background: var(--white);
+  height: 4rem;
+  display: grid;
+  align-items: center;
+  box-shadow: var(--shadow-2);
+}
+.nav-center {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center h4 {
+  margin-bottom: 0;
+  color: var(--primary-500);
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.nav-links {
+  display: flex;
+}
+nav a {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: var(--primary-900);
+  letter-spacing: var(--letterSpacing);
+  margin-right: 1rem;
+  transition: var(--transtion);
+}
+nav a:hover {
+  color: var(--primary-500);
+}
+/*
+=============== 
+Container
+===============
+*/
+main {
+  min-height: calc(100vh - 4rem);
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.container h2 {
+  background: var(--black);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: var(--borderRadius);
+  margin-bottom: 2.5rem;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+.color {
+  color: var(--primary-500);
+  text-transform: uppercase;
+}
+.btn-hero {
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--black);
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  border: 2px solid var(--black);
+  padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover {
+  color: var(--white);
+  background: var(--black);
+}

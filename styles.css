@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
 *,
 ::after,
 ::before {
@@ -44,8 +44,8 @@
 
   /* typography */
   --defaultFontSize: 87.5%;
-  --headingFont: 'Inconsolata', monospace;
-  --bodyFont: 'Montserrat', sans-serif;
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
   /* rest */
   --backgroundColor: var(--white);
@@ -217,6 +217,7 @@ Hero
 .hero-title h1 {
   color: var(--black-design);
   margin: 0;
+  letter-spacing: 2px;
 }
 .hero-title p {
   margin: 2rem 0;
@@ -232,13 +233,13 @@ Hero
   text-align: center;
   line-height: 1.25;
   font-style: italic;
-  font-weight: 900;
+  font-weight: 600;
 }
 .hero-btn {
   display: inline-block;
   background: var(--primary-design);
   color: var(--black-design);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   padding: 0.75rem 1.25rem;
 
