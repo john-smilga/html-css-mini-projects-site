@@ -341,3 +341,8 @@ Animation
     transform: scale(1);
   }
 }
+
+.hero-img-2 {
+  width: 350px;
+  margin-left: 20rem;
+}
